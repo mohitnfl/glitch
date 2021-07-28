@@ -1,0 +1,49 @@
+.trending_img {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.trending_img span {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #1e1f20;
+  color: #fff;
+  font-size: 0.875rem;
+  padding: 2px 10px;
+  border-radius: 4px;
+}
+
+.trending_img img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.trending_card {
+  margin-bottom: 1.8rem;
+}
+
+.trending_card h5 {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.trending_card p {
+  margin: 0;
+  color: #8f92a1;
+}
+
+@media (min-width: 1600px) {
+  .trending_card h5 {
+    font-size: 1.1rem;
+  }
+
+  .trending_img span {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .top_channel_scroll {
+    margin: 0 0.5rem;
+  }
+}
